@@ -1,0 +1,257 @@
+{
+  "data": {
+    "attachments": {},
+    "author_id": "1505736923687628803",
+    "conversation_id": "1526679696599040008",
+    "created_at": "2022-05-17T21:42:58.000Z",
+    "entities": {
+      "urls": [
+        {
+          "start": 10,
+          "end": 33,
+          "url": "https://t.co/wsVftsMFbh",
+          "expanded_url": "https://twitter.com/jairmearrependi/status/1526624259837239298",
+          "display_url": "twitter.com/jairmearrepend…"
+        }
+      ]
+    },
+    "geo": {},
+    "id": "1526679696599040008",
+    "lang": "pt",
+    "possibly_sensitive": false,
+    "public_metrics": {
+      "retweet_count": 0,
+      "reply_count": 0,
+      "like_count": 0,
+      "quote_count": 0
+    },
+    "referenced_tweets": [
+      {
+        "type": "quoted",
+        "id": "1526624259837239298"
+      }
+    ],
+    "reply_settings": "everyone",
+    "source": "Twitter for Android",
+    "text": "O mico 🤣🤡 https://t.co/wsVftsMFbh"
+  },
+  "includes": {
+    "users": [
+      {
+        "created_at": "2022-03-21T02:44:22.000Z",
+        "description": "Carioca\nMãe de plantas e de gatos",
+        "id": "1505736923687628803",
+        "location": "Rio de Janeiro, Brazil",
+        "name": "Lia Lima",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1511180231196958726/5gDGW7L-_normal.jpg",
+        "protected": false,
+        "public_metrics": {
+          "followers_count": 13,
+          "following_count": 464,
+          "tweet_count": 310,
+          "listed_count": 0
+        },
+        "url": "",
+        "username": "LiaLima_DeOlho",
+        "verified": false
+      },
+      {
+        "created_at": "2018-10-19T20:13:59.000Z",
+        "description": "Já fui coletânea de arrependidos do Bolsonaro. Apareci 1 seg na Grobo época da CPI. 🏆 Vencedora do Show dos Famosos 2021 📧 headofmedusa@protonmail.com",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "start": 0,
+                "end": 23,
+                "url": "https://t.co/V0hZlF7rLe",
+                "expanded_url": "https://www.tiktok.com/@jairmearrependi",
+                "display_url": "tiktok.com/@jairmearrepen…"
+              }
+            ]
+          }
+        },
+        "id": "1053378751189397504",
+        "location": "Ceci n'est pas Gloria Groove",
+        "name": "jairme",
+        "pinned_tweet_id": "1519477916060553216",
+        "profile_image_url": "https://pbs.twimg.com/profile_images/1526376525553090560/F_gM7Oh6_normal.jpg",
+        "protected": false,
+        "public_metrics": {{
+        "data": {
+          "attachments": {},
+          "author_id": "1505736923687628803",
+          "conversation_id": "1526679696599040008",
+          "created_at": "2022-05-17T21:42:58.000Z",
+          "entities": {
+            "urls": [
+              {
+                "start": 10,
+                "end": 33,
+                "url": "https://t.co/wsVftsMFbh",
+                "expanded_url": "https://twitter.com/jairmearrependi/status/1526624259837239298",
+                "display_url": "twitter.com/jairmearrepend…"
+              }
+            ]
+          },
+          "geo": {},
+          "id": "1526679696599040008",
+          "lang": "pt",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "retweet_count": 0,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "type": "quoted",
+              "id": "1526624259837239298"
+            }
+          ],
+          "reply_settings": "everyone",
+          "source": "Twitter for Android",
+          "text": "O mico 🤣🤡 https://t.co/wsVftsMFbh"
+        },
+        "includes": {
+          "users": [
+            {
+              "created_at": "2022-03-21T02:44:22.000Z",
+              "description": "Carioca\nMãe de plantas e de gatos",
+              "id": "1505736923687628803",
+              "location": "Rio de Janeiro, Brazil",
+              "name": "Lia Lima",
+              "profile_image_url": "https://pbs.twimg.com/profile_images/1511180231196958726/5gDGW7L-_normal.jpg",
+              "protected": false,
+              "public_metrics": {
+                "followers_count": 13,
+                "following_count": 464,
+                "tweet_count": 310,
+                "listed_count": 0
+              },
+              "url": "",
+              "username": "LiaLima_DeOlho",
+              "verified": false
+            },
+            {
+              "created_at": "2018-10-19T20:13:59.000Z",
+              "description": "Já fui coletânea de arrependidos do Bolsonaro. Apareci 1 seg na Grobo época da CPI. 🏆 Vencedora do Show dos Famosos 2021 📧 headofmedusa@protonmail.com",
+              "entities": {
+                "url": {
+                  "urls": [
+                    {
+                      "start": 0,
+                      "end": 23,
+                      "url": "https://t.co/V0hZlF7rLe",
+                      "expanded_url": "https://www.tiktok.com/@jairmearrependi",
+                      "display_url": "tiktok.com/@jairmearrepen…"
+                    }
+                  ]
+                }
+              },
+              "id": "1053378751189397504",
+              "location": "Ceci n'est pas Gloria Groove",
+              "name": "jairme",
+              "pinned_tweet_id": "1519477916060553216",
+              "profile_image_url": "https://pbs.twimg.com/profile_images/1526376525553090560/F_gM7Oh6_normal.jpg",
+              "protected": false,
+              "public_metrics": {
+                "followers_count": 255845,
+                "following_count": 1171,
+                "tweet_count": 76837,
+                "listed_count": 614
+              },
+              "url": "https://t.co/V0hZlF7rLe",
+              "username": "jairmearrependi",
+              "verified": false
+            }
+          ],
+          "tweets": [
+            {
+              "attachments": {
+                "media_keys": [
+                  "7_1526603258931957762"
+                ]
+              },
+              "author_id": "1053378751189397504",
+              "conversation_id": "1526624259837239298",
+              "created_at": "2022-05-17T18:02:41.000Z",
+              "entities": {
+                "urls": [
+                  {
+                    "start": 0,
+                    "end": 23,
+                    "url": "https://t.co/07ZeWazJgJ",
+                    "expanded_url": "https://twitter.com/bdebrasil13/status/1526603298370949121/video/1",
+                    "display_url": "pic.twitter.com/07ZeWazJgJ",
+                    "media_key": "7_1526603258931957762"
+                  }
+                ]
+              },
+              "geo": {},
+              "id": "1526624259837239298",
+              "lang": "und",
+              "possibly_sensitive": false,
+              "public_metrics": {
+                "retweet_count": 293,
+                "reply_count": 98,
+                "like_count": 2489,
+                "quote_count": 117
+              },
+              "reply_settings": "everyone",
+              "source": "Twitter for iPhone",
+              "text": "https://t.co/07ZeWazJgJ"
+            }
+          ]
+        }
+      },
+          "followers_count": 255845,
+          "following_count": 1171,
+          "tweet_count": 76837,
+          "listed_count": 614
+        },
+        "url": "https://t.co/V0hZlF7rLe",
+        "username": "jairmearrependi",
+        "verified": false
+      }
+    ],
+    "tweets": [
+      {
+        "attachments": {
+          "media_keys": [
+            "7_1526603258931957762"
+          ]
+        },
+        "author_id": "1053378751189397504",
+        "conversation_id": "1526624259837239298",
+        "created_at": "2022-05-17T18:02:41.000Z",
+        "entities": {
+          "urls": [
+            {
+              "start": 0,
+              "end": 23,
+              "url": "https://t.co/07ZeWazJgJ",
+              "expanded_url": "https://twitter.com/bdebrasil13/status/1526603298370949121/video/1",
+              "display_url": "pic.twitter.com/07ZeWazJgJ",
+              "media_key": "7_1526603258931957762"
+            }
+          ]
+        },
+        "geo": {},
+        "id": "1526624259837239298",
+        "lang": "und",
+        "possibly_sensitive": false,
+        "public_metrics": {
+          "retweet_count": 293,
+          "reply_count": 98,
+          "like_count": 2489,
+          "quote_count": 117
+        },
+        "reply_settings": "everyone",
+        "source": "Twitter for iPhone",
+        "text": "https://t.co/07ZeWazJgJ"
+      }
+    ]
+  }
+}
