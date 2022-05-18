@@ -1,4 +1,4 @@
-#EXERCISE
+# EXERCISE
 
 Microservice that persists Tweets into a database to be queried by an API REST. With following restrictions:
 
