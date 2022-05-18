@@ -5,7 +5,6 @@ import com.alberto.twitter.repository.TweetRepository;
 import com.alberto.twitter.util.JsonNodeUtil;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 import lombok.RequiredArgsConstructor;
@@ -28,6 +27,10 @@ public class TweetProcessor {
   @Value("${twitter.languages}")
   private final String languages;
 
+  /**
+   * Important: note that I am not able to use Twitter4J. I haven't pay a lot of attention at this
+   * code since should be the library code
+   */
   @SneakyThrows
   public void process(String payload) {
     JSONObject apiResponse = new JSONObject(payload);
@@ -39,22 +42,26 @@ public class TweetProcessor {
     });
   }
 
+  /**
+   * Important: note that I am not able to use Twitter4J. I haven't pay a lot of attention at this
+   * code since should be the library code
+   */
   private void saveTweet(String tweetId, JSONObject apiResponse) {
     String language = JsonNodeUtil.getJsonObject(apiResponse, "data", "lang");
     Integer retweets = JsonNodeUtil.getJsonObject(apiResponse, "data", "public_metrics",
         "retweet_count");
-//    String authorId = JsonNodeUtil.getJsonObject(apiResponse, "data", "author_id");
     String text = JsonNodeUtil.getJsonObject(apiResponse, "data", "text");
     JSONArray users = JsonNodeUtil.getJsonObject(apiResponse, "includes", "users");
     users.toList().stream().findFirst().ifPresent(hashMap -> {
-      int followersCount = (int) ((HashMap) ((HashMap) hashMap).get("public_metrics")).get(
+      int followersCount = (int) ((HashMap<?, ?>) ((HashMap<?, ?>) hashMap).get(
+          "public_metrics")).get(
           "followers_count");
-      String location = (String) ((HashMap) hashMap).get("location");
-      String userName = (String) ((HashMap) hashMap).get("username");
-      Boolean verified = (Boolean) ((HashMap) hashMap).get("verified");
+      String location = (String) ((HashMap<?, ?>) hashMap).get("location");
+      String userName = (String) ((HashMap<?, ?>) hashMap).get("username");
+      Boolean verified = (Boolean) ((HashMap<?, ?>) hashMap).get("verified");
       if (minNumberOfFollowers <= followersCount && Arrays.stream((languages.split(",")))
           .collect(Collectors.toList()).contains(language)) {
-        Tweet entity = Tweet.builder().tweetId(tweetId).location(location).retweetCount(
+        Tweet entity = Tweet.builder().tweetId(tweetId).localization(location).retweetCount(
                 Long.valueOf(retweets))
             .twitterUser(userName).verified(verified)
             .text(Objects.requireNonNullElse(text, Strings.EMPTY)).build();

@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 public class ServletConfig {
 
   @Bean
-  ServletRegistrationBean servletRegistrationBean() {
+  public ServletRegistrationBean servletRegistrationBean() {
     ServletRegistrationBean servlet = new ServletRegistrationBean(new CamelHttpTransportServlet(),
         "/camel/*");
     servlet.setName("CamelServlet");

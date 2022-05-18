@@ -27,7 +27,7 @@ public class Tweet {
   @Column(name = "twitter_user")
   private String twitterUser;
   private String text;
-  private String location;
+  private String localization;
   private boolean verified;
   @Column(name = "retweet_count")
   private Long retweetCount;

@@ -21,9 +21,15 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+/**
+ * CLASS COPIED FROM OFFICIAL GITHUB REPO
+ */
 @UtilityClass
 public class TwitterUtil {
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   /*
    * Helper method to setup rules before streaming data
    * */
@@ -36,6 +42,9 @@ public class TwitterUtil {
     createRules(bearerToken, rules);
   }
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   /*
    * Helper method to create rules for filtering
    * */
@@ -60,6 +69,9 @@ public class TwitterUtil {
     }
   }
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   /*
    * Helper method to get existing rules
    * */
@@ -90,6 +102,9 @@ public class TwitterUtil {
     return rules;
   }
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   /*
    * Helper method to delete rules
    * */
@@ -115,6 +130,9 @@ public class TwitterUtil {
     }
   }
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   private static String getFormattedString(String string, List<String> ids) {
     StringBuilder sb = new StringBuilder();
     if (ids.size() == 1) {
@@ -128,6 +146,9 @@ public class TwitterUtil {
     }
   }
 
+  /**
+   * CLASS COPIED FROM OFFICIAL GITHUB REPO
+   */
   private static String getFormattedString(String string, Map<String, String> rules) {
     StringBuilder sb = new StringBuilder();
     if (rules.size() == 1) {
